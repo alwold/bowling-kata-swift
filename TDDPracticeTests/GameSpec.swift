@@ -56,6 +56,18 @@ class GameSpec: QuickSpec {
           expect(sut.score).to(equal(4))
         }
       }
+
+      context("special scoring") {
+        it ("adds a bonus when a spare is rolled") {
+          let sut = Game()
+
+          sut.roll(2)
+          sut.roll(8)
+          sut.roll(2)
+
+          expect(sut.score).to(equal(14))
+        }
+      }
     }
   }
 }
