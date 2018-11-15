@@ -8,8 +8,10 @@
 
 import Foundation
 
-struct Game {
-  let score = 0
+class Game {
+  var score = 0
 
-  func roll(_ pins: Int) {}
+  func roll(_ pins: Int) {
+    score = 1
+  }
 }
