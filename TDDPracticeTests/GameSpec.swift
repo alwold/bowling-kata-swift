@@ -27,15 +27,25 @@ class GameSpec: QuickSpec {
         sut.roll(1)
       }
 
-      it ("increments the score by the amount rolled") {
-        // given
-        let sut = Game()
+      context("rolling") {
+        it ("increments the score by one when one is rolled") {
+          // given
+          let sut = Game()
 
-        // when
-        sut.roll(1)
+          // when
+          sut.roll(1)
 
-        // then
-        expect(sut.score).to(equal(1))
+          // then
+          expect(sut.score).to(equal(1))
+        }
+
+        it ("increments the score by two when two is rolled") {
+          let sut = Game()
+
+          sut.roll(2)
+
+          expect(sut.score).to(equal(2))
+        }
       }
     }
   }
