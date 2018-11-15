@@ -10,4 +10,6 @@ import Foundation
 
 struct Game {
   let score = 0
+
+  func roll(_ pins: Int) {}
 }

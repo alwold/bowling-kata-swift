@@ -19,7 +19,12 @@ class GameSpec: QuickSpec {
 
       it ("has a score") {
         let sut = Game()
-        sut.score
+        _ = sut.score
+      }
+
+      it ("allows for rolling") {
+        let sut = Game()
+        sut.roll(1)
       }
     }
   }
