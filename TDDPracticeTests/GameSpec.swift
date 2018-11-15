@@ -46,6 +46,15 @@ class GameSpec: QuickSpec {
 
           expect(sut.score).to(equal(2))
         }
+
+        it ("adds to the score") {
+          let sut = Game()
+          sut.score = 2
+
+          sut.roll(2)
+
+          expect(sut.score).to(equal(4))
+        }
       }
     }
   }
