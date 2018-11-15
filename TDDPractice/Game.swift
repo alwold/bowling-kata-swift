@@ -8,4 +8,6 @@
 
 import Foundation
 
-struct Game {}
+struct Game {
+  let score = 0
+}

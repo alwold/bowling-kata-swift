@@ -16,6 +16,11 @@ class GameSpec: QuickSpec {
       it ("can be instantiated") {
         _ = Game()
       }
+
+      it ("has a score") {
+        let sut = Game()
+        sut.score
+      }
     }
   }
 }
