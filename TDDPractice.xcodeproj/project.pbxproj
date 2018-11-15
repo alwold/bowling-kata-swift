@@ -13,7 +13,7 @@
 		88A56E01219DD6440074796C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A56DFF219DD6440074796C /* Main.storyboard */; };
 		88A56E03219DD64A0074796C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A56E02219DD64A0074796C /* Assets.xcassets */; };
 		88A56E06219DD64A0074796C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A56E04219DD64A0074796C /* LaunchScreen.storyboard */; };
-		88A56E11219DD64A0074796C /* TDDPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A56E10219DD64A0074796C /* TDDPracticeTests.swift */; };
+		88A56E11219DD64A0074796C /* GameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A56E10219DD64A0074796C /* GameSpec.swift */; };
 		88A56E1C219DD88A0074796C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A56E1B219DD8890074796C /* Game.swift */; };
 		FB8AFED00B100EF3240E870E /* Pods_TDDPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D534052B92C3FE2B2BCADD4C /* Pods_TDDPractice.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 		88A56E05219DD64A0074796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88A56E07219DD64A0074796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88A56E0C219DD64A0074796C /* TDDPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88A56E10219DD64A0074796C /* TDDPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPracticeTests.swift; sourceTree = "<group>"; };
+		88A56E10219DD64A0074796C /* GameSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSpec.swift; sourceTree = "<group>"; };
 		88A56E12219DD64A0074796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88A56E1B219DD8890074796C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		89AC3A9B7EE75282F60C1878 /* Pods-TDDPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDDPractice/Pods-TDDPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		88A56E0F219DD64A0074796C /* TDDPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				88A56E10219DD64A0074796C /* TDDPracticeTests.swift */,
+				88A56E10219DD64A0074796C /* GameSpec.swift */,
 				88A56E12219DD64A0074796C /* Info.plist */,
 			);
 			path = TDDPracticeTests;
@@ -316,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88A56E11219DD64A0074796C /* TDDPracticeTests.swift in Sources */,
+				88A56E11219DD64A0074796C /* GameSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

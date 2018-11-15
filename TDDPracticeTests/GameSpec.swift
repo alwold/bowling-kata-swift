@@ -10,7 +10,7 @@ import Quick
 import Nimble
 @testable import TDDPractice
 
-class TDDPracticeTests: QuickSpec {
+class GameSpec: QuickSpec {
   override func spec() {
     describe("Game") {
       it ("can be instantiated") {
