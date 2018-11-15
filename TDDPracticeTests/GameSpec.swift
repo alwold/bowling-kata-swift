@@ -67,6 +67,16 @@ class GameSpec: QuickSpec {
 
           expect(sut.score).to(equal(14))
         }
+
+        it ("doesn't add a bonus when there's no spare in the previous frame") {
+          let sut = Game()
+
+          sut.roll(2)
+          sut.roll(7)
+          sut.roll(2)
+
+          expect(sut.score).to(equal(11))
+        }
       }
     }
   }
